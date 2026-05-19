@@ -12,7 +12,7 @@ try:
 except ImportError:
     AI_AVAILABLE = False
 
-GEMINI_API_KEY = "ВСТАВЬ_СЮДА_СВОЙ_НОВЫЙ_КЛЮЧ"
+GEMINI_API_KEY = "AIzaSyBu7_EgRzMRjmXd63DT9hFbPduEnsldIpg"
 
 def get_ai_explanation(question_text, student_answer, correct_answer):
     if not AI_AVAILABLE or len(GEMINI_API_KEY) < 20:
